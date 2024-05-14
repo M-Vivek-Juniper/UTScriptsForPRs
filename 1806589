@@ -1,0 +1,4 @@
+for  (( ; ; ))
+do
+gnmic -a sage:50051 -u regress -p MaRtInI --encoding PROTO sub --mode ONCE --path /interfaces/interface/ --path /components/component/ --path /junos/system/linecard/ --insecure --format flat
+done
